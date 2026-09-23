@@ -7,12 +7,12 @@
 <meta name="description" content="1922 E 9th Street, Tucson, Arizona: a restored 1910 residence with 3 bedrooms, 2 bathrooms and 2,427 sq ft, offered at $869,000. Schedule a private tour with Nathan Morrison, Indie Realty.">
 <meta property="og:title" content="1922 E 9th Street, Tucson, Arizona">
 <meta property="og:description" content="A restored 1910 Tucson residence. 3 bedrooms, 2 bathrooms, 2,427 sq ft. Offered at $869,000.">
-<meta property="og:image" content="images/hero-exterior.jpg">
+<meta property="og:image" content="images/front-sunset.jpg">
 <meta property="og:type" content="website">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-<link rel="preload" as="image" href="images/hero-exterior.jpg">
+<link rel="preload" as="image" href="images/front-sunset.jpg">
 <style>
 /* ============================================================
    DESIGN TOKENS
@@ -162,7 +162,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 /* ============================================================
    1. HERO
    ============================================================ */
-#home .bg{object-position:50% 50%}
+#home .bg{object-position:55% 50%}
 #home .shade{
   background:
     linear-gradient(to top, rgba(0,0,0,.62) 0%, rgba(0,0,0,.25) 26%, rgba(0,0,0,0) 45%),
@@ -577,7 +577,7 @@ body.locked{overflow:hidden}
   .menu .menu-address{font-size:1.4rem}
 
   /* 1 hero */
-  #home .bg{object-position:57% 50%}
+  #home .bg{object-position:56% 50%}
   #home .shade{
     background:
       linear-gradient(to top, rgba(0,0,0,.72) 0%, rgba(0,0,0,.3) 30%, rgba(0,0,0,0) 50%),
@@ -764,7 +764,7 @@ body.locked{overflow:hidden}
 
 <!-- ============ 1. HERO ============ -->
 <section class="screen" id="home" aria-label="1922 E 9th Street">
-  <img class="bg" src="images/hero-exterior.jpg" alt="Front of 1922 E 9th Street at sunset: a white brick bungalow with a deep front porch, lit windows, and desert landscaping" fetchpriority="high">
+  <img class="bg" src="images/front-sunset.jpg" alt="Front of 1922 E 9th Street at sunset: a bungalow with a dormer, brick chimney, lit front porch, and desert landscaping along the walkway" fetchpriority="high">
   <div class="shade"></div>
   <img class="hero-logo" src="images/indie-realty-logo.png" alt="Indie Realty">
   <div class="hero-address">
@@ -821,23 +821,23 @@ body.locked{overflow:hidden}
         <button class="btn" data-open="0">View All Photos</button>
       </div>
     </div>
-    <button class="tile t-kitchen" data-open="6" aria-label="Open kitchen photo">
+    <button class="tile t-kitchen" data-open="5" aria-label="Open kitchen photo">
       <img src="images/gallery-kitchen.jpg" alt="Kitchen with black cabinetry, marble island, and brass pendant lights" loading="lazy">
       <span class="tile-label">Kitchen</span>
     </button>
-    <button class="tile t-bedroom" data-open="8" aria-label="Open primary bedroom photo">
+    <button class="tile t-bedroom" data-open="7" aria-label="Open primary bedroom photo">
       <img src="images/gallery-bedroom.jpg" alt="Primary bedroom with an upholstered bed between two windows" loading="lazy">
       <span class="tile-label">Primary Bedroom</span>
     </button>
-    <button class="tile t-bath" data-open="12" aria-label="Open bathroom photo">
+    <button class="tile t-bath" data-open="11" aria-label="Open bathroom photo">
       <img src="images/gallery-bath.jpg" alt="Bathroom with a freestanding tub, brass tub filler, and black-and-white tile floor" loading="lazy">
       <span class="tile-label">Bathroom</span>
     </button>
-    <button class="tile t-dining" data-open="7" aria-label="Open dining room photo">
+    <button class="tile t-dining" data-open="6" aria-label="Open dining room photo">
       <img src="images/gallery-dining.jpg" alt="Dining room with a wood table, leather chairs, and an iron chandelier" loading="lazy">
       <span class="tile-label">Dining Room</span>
     </button>
-    <button class="tile t-porch" data-open="15" aria-label="Open front porch photo">
+    <button class="tile t-porch" data-open="14" aria-label="Open front porch photo">
       <img src="images/backyard-patio.jpg" alt="Patio with a dining table, string lights, fire pit, and garden at sunset" loading="lazy">
       <span class="tile-label">Front Porch</span>
     </button>
@@ -1020,8 +1020,7 @@ const VIDEO_URL = "";
 
 /* Slideshow photos, in walkthrough order */
 const PHOTOS = [
-  ["images/hero-exterior.jpg",   "Front exterior"],
-  ["images/front-sunset.jpg",    "Front at sunset"],
+  ["images/front-sunset.jpg",    "Front exterior"],
   ["images/entry-hall.jpg",      "Entry hall"],
   ["images/living-fireplace.jpg","Living room"],
   ["images/gallery-living.jpg",  "Living room"],
